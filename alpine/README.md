@@ -1,7 +1,7 @@
 alpine-openrc
 =============
 
-Alpine Linux using OpenRC
+Alpine Linux base container using OpenRC
 
 Set up:
 
