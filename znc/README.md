@@ -1,7 +1,7 @@
 znc
 ===
 
-ZNC running on Alpine Linux
+ZNC running on Alpine Linux container
 
 Set up:
 
