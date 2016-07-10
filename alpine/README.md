@@ -6,7 +6,7 @@ Alpine Linux using OpenRC
 Set up:
 
 ```
-docker pull danilo/alpine
+$ docker pull danilo/alpine
 ```
 
 Run:
