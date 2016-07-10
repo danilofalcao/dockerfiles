@@ -2,7 +2,6 @@
 #
 # docker run -d \
 #	--restart=always \
-#	-v /etc/localtime:/etc/localtime:ro \
 #	-p 9050:9050 \
 #	--name tor \
 #	danilo/tor

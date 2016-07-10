@@ -1,4 +1,10 @@
 # Run znc in an Alpine Linux container
+#
+# docker run -d \
+#	--restart=always \
+#	-p 6697:6697 \
+#	--name znc \
+#	danilo/znc
 
 FROM danilo/alpine:latest
 MAINTAINER Danilo Falcão <danilo@falcao.org>
