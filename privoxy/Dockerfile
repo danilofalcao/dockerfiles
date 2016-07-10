@@ -2,6 +2,7 @@
 #
 # docker run -d \
 #	--restart=always \
+#	--link tor:tor \
 #	-p 8118:8118 \
 #	--name privoxy \
 #	danilo/privoxy
