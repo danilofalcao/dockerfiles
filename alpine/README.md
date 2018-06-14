@@ -12,7 +12,9 @@ $ docker pull danilo/alpine
 Run:
 
 ```
-$ docker run --rm -it danilo/alpine sh
+$ docker run --name alpine -d -it danilo/alpine 
+e15f68438e3ad8b2eb1f82b783b35b513fb829d1cee6de18cb121f248ac28ebb
+$ docker exec -it alpine sh
 / # apk update
 fetch http://dl-cdn.alpinelinux.org/alpine/edge/main/x86_64/APKINDEX.tar.gz
 fetch http://dl-cdn.alpinelinux.org/alpine/edge/community/x86_64/APKINDEX.tar.gz
